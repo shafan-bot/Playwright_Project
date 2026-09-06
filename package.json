@@ -1,0 +1,29 @@
+{
+  "name": "playwright_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shafan-bot/Playwright_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shafan-bot/Playwright_Project/issues"
+  },
+  "homepage": "https://github.com/shafan-bot/Playwright_Project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "excel": "^1.0.1",
+    "js": "^0.1.0"
+  }
+}
