@@ -14,6 +14,6 @@ const {test,expect} = require('../fixtures/URLFixture');
 test('use custom URL',async({page, baseURL})=> 
 {
     await page.goto(baseURL);
-    await expect(page).toHaveTitle(/Google/); 
+    await expect(page).toHaveTitle(/Toolshop/); 
     await page.pause();
 });
